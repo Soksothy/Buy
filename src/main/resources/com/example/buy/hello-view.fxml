@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="721.0" prefWidth="1005.0" stylesheets="@cafe.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.buy.HelloController">
+   <children>
+      <TabPane prefHeight="1080.0" prefWidth="1980.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="CAFFE">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="caffe" fitHeight="1321.0" fitWidth="2382.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@gh.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img1" fitHeight="262.0" fitWidth="331.0" layoutX="62.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@c1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img2" fitHeight="262.0" fitWidth="331.0" layoutX="44.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@c2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="img3" fitHeight="262.0" fitWidth="331.0" layoutX="68.0" layoutY="701.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@c3.png" />
+                           </image>
+                        </ImageView>
+                        <Rectangle fx:id="re" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="394.0" layoutY="78.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re1" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="391.0" layoutY="399.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re11" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="389.0" layoutY="715.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="933.0" layoutY="82.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re21" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="923.0" layoutY="401.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re211" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="922.0" layoutY="716.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re22" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1445.0" layoutY="81.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re212" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1443.0" layoutY="394.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2111" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1440.0" layoutY="718.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="399.0" layoutY="76.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Cappuccino">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="399.0" layoutY="171.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="399.0" layoutY="236.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spin" layoutX="572.0" layoutY="251.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="939.0" layoutY="86.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="939.0" layoutY="197.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugar" layoutX="1142.0" layoutY="103.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="size" layoutX="1142.0" layoutY="208.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="403.0" layoutY="401.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Americano">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="408.0" layoutY="496.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="405.0" layoutY="560.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spin1" layoutX="560.0" layoutY="570.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="931.0" layoutY="397.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="933.0" layoutY="526.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugar1" layoutX="1146.0" layoutY="412.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="size1" layoutX="1141.0" layoutY="542.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="395.0" layoutY="704.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Black Coffee">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="394.0" layoutY="801.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="392.0" layoutY="871.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spin11" layoutX="549.0" layoutY="883.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="932.0" layoutY="715.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugar11" layoutX="1140.0" layoutY="732.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="934.0" layoutY="838.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="size11" layoutX="1136.0" layoutY="856.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Button fx:id="cbtn1" layoutX="1444.0" layoutY="77.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cbtn2" layoutX="1439.0" layoutY="391.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cbtn3" layoutX="1437.0" layoutY="716.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="FRAPPE">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fx:id="imgf" fitHeight="1368.0" fitWidth="2086.0" layoutX="-22.0" layoutY="-224.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@gh.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="238.0" fitWidth="314.0" layoutX="55.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@f1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="226.0" fitWidth="146.0" layoutX="80.0" layoutY="411.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@f2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="218.0" fitWidth="170.0" layoutX="65.0" layoutY="740.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@f3.png" />
+                           </image>
+                        </ImageView>
+                        <Rectangle fx:id="re3" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="358.0" layoutY="63.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re23" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="896.0" layoutY="64.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re221" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1438.0" layoutY="61.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="371.0" layoutY="61.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="372.0" layoutY="166.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="369.0" layoutY="242.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spinf1" layoutX="530.0" layoutY="253.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="905.0" layoutY="64.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="907.0" layoutY="199.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugarf1" layoutX="1115.0" layoutY="77.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="sizef1" layoutX="1113.0" layoutY="212.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Rectangle fx:id="re31" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="360.0" layoutY="392.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re231" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="906.0" layoutY="391.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2211" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1442.0" layoutY="389.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re311" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="359.0" layoutY="709.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2311" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="921.0" layoutY="719.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re22111" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1443.0" layoutY="717.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="375.0" layoutY="382.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Sundae ">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="374.0" layoutY="484.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="370.0" layoutY="570.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spinf2" layoutX="530.0" layoutY="581.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="915.0" layoutY="397.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugarf2" layoutX="1118.0" layoutY="411.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="917.0" layoutY="534.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sizef2" layoutX="1118.0" layoutY="550.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="370.0" layoutY="712.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Vanilla">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="372.0" layoutY="815.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="370.0" layoutY="883.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spinf3" layoutX="529.0" layoutY="892.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="932.0" layoutY="722.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="934.0" layoutY="851.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugarf3" layoutX="1139.0" layoutY="739.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="sizef3" layoutX="1140.0" layoutY="864.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Button fx:id="fbtn1" layoutX="1437.0" layoutY="58.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fbtn2" layoutX="1439.0" layoutY="385.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="fbtn3" layoutX="1442.0" layoutY="715.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="TEA">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="1364.0" fitWidth="2401.0" layoutX="-44.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@gh.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="103.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@t1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="175.0" fitWidth="207.0" layoutX="71.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@t2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="155.0" fitWidth="206.0" layoutX="79.0" layoutY="740.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@t3.png" />
+                           </image>
+                        </ImageView>
+                        <Rectangle fx:id="re32" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="345.0" layoutY="63.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="366.0" layoutY="56.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="365.0" layoutY="165.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="364.0" layoutY="237.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Rectangle fx:id="re232" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="885.0" layoutY="61.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2212" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1425.0" layoutY="64.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Spinner fx:id="spint1" layoutX="526.0" layoutY="245.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="915.0" layoutY="61.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="917.0" layoutY="197.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugart1" layoutX="1118.0" layoutY="77.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="sizet1" layoutX="1117.0" layoutY="210.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Rectangle fx:id="re321" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="341.0" layoutY="382.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re322" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="339.0" layoutY="694.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re2321" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="881.0" layoutY="379.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re23211" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="881.0" layoutY="695.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re22121" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1433.0" layoutY="383.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Rectangle fx:id="re221211" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1437.0" layoutY="700.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="361.0" layoutY="367.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="365.0" layoutY="466.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="368.0" layoutY="548.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spint11" layoutX="531.0" layoutY="557.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="899.0" layoutY="372.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="899.0" layoutY="505.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugart11" layoutX="1112.0" layoutY="386.0" prefHeight="65.0" prefWidth="187.0" />
+                        <ChoiceBox fx:id="sizet11" layoutX="1112.0" layoutY="517.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="358.0" layoutY="701.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="358.0" layoutY="794.0" opacity="0.67" prefHeight="69.0" prefWidth="412.0" styleClass="fontsm" text="Price : 3$">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="352.0" layoutY="855.0" opacity="0.67" prefHeight="69.0" prefWidth="152.0" styleClass="fontsm" text="Quantity">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Label>
+                        <Spinner fx:id="spint111" layoutX="517.0" layoutY="866.0" prefHeight="40.0" prefWidth="165.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="893.0" layoutY="698.0" prefHeight="87.0" prefWidth="196.0" styleClass="font" text="Sugars :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sugart111" layoutX="1113.0" layoutY="712.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="897.0" layoutY="824.0" prefHeight="87.0" prefWidth="170.0" styleClass="font" text="Size :">
+                           <font>
+                              <Font size="46.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="sizet111" layoutX="1112.0" layoutY="836.0" prefHeight="65.0" prefWidth="187.0" />
+                        <Button fx:id="tbtn1" layoutX="1423.0" layoutY="59.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="tbtn2" layoutX="1431.0" layoutY="380.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="tbtn3" layoutX="1435.0" layoutY="696.0" mnemonicParsing="false" prefHeight="238.0" prefWidth="422.0" styleClass="btn" stylesheets="@cafe.css" text="Add to Carts" textAlignment="CENTER" textFill="#c90000" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Button>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>

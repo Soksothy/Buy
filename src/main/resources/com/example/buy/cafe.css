@@ -1,0 +1,35 @@
+.btn{
+    -fx-background-color:black;
+    -fx-background-radius: 20px;
+    -fx-text-fill: red;
+    -fx-font-size: 30px;
+    fx-font-family: "TeXGyreAdventor";
+
+    -fx-font-weight: bold;
+
+}
+.font{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.fontbtn{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.fontsm{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.retengle
+{
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+
+
+}
+
