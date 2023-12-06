@@ -1,28 +1,32 @@
 .gradient{
-    -fx-background-color: linear-gradient(to bottom right, #b43100, #c800ff);
+    -fx-background-color: linear-gradient(to bottom right, #b4875a, #b4875a);
 }
-
+.gradient2{
+    -fx-background-color: linear-gradient(to bottom right, #b4875a, #b4875a);
+}
 .white-form{
-    -fx-background-color: #ffff;
+    -fx-background-color: #e0ba99;
+}
+.black-form{
+    -fx-background-color: #070606;
+}
+.blacktxt-form{
+    -fx-text-stroke: #070606;
 }
 
-.login-bu{
-    -fx-background-color: linear-gradient(to bottom right, #f9f2fc, #f9f2fc);
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom right, #663c22, #663c22);
     -fx-background-radius: 5px;
-    -fx-border-color: #662222;
+    -fx-border-color: #ffffff;
     -fx-cursor: hand;
-    -fx-text-fill: #662222;
+    -fx-text-fill: #ffffff;
     -fx-font-size: 14px;
 }
 
-.login-bu:hover{
-    -fx-background-color: linear-gradient(to bottom right, #c800ff, #fb037c);
-}
-.font{
-    -fx-font-family: "TeXGyreAdventor";
-    -fx-font-size: 30px;
-    -fx-font-weight: bold;
-    -fx-text-fill: black;
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #b47028, #b47028);
 }
 
-
+.box{
+    -fx-border-color: #070606 ;
+}
