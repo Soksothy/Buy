@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop.FirstController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <BorderPane prefHeight="400.0" prefWidth="600.0">
+                    <left>
+                        <VBox prefHeight="400.0" prefWidth="300.0" styleClass="gradient" stylesheets="@design.css" BorderPane.alignment="CENTER">
+                            <children>
+                                <HBox prefHeight="159.0" prefWidth="300.0">
+                                    <children>
+                                        <Label alignment="CENTER" prefHeight="143.0" prefWidth="300.0" text="JAVA COFFEE" textFill="WHITE">
+                                            <font>
+                                                <Font name="System Bold" size="36.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="68.0" prefWidth="300.0">
+                                    <children>
+                                        <Label prefHeight="18.0" prefWidth="49.0" />
+                                        <Button mnemonicParsing="false" onAction="#switchToStaff" prefHeight="58.0" prefWidth="207.0" styleClass="login-bu" stylesheets="@design.css" text="STAFF" />
+                                    </children>
+                                </HBox>
+                            </children></VBox>
+                    </left>
+                    <right>
+                        <VBox prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+                            <children>
+                                <HBox prefHeight="112.0" prefWidth="300.0">
+                                    <children>
+                                        <Label alignment="CENTER" prefHeight="116.0" prefWidth="153.0" text="Admin" textFill="#662222">
+                                            <font>
+                                                <Font size="30.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="66.0" prefWidth="300.0">
+                                    <children>
+                                        <Label prefHeight="18.0" prefWidth="36.0" />
+                                        <TextField fx:id="usernameField" prefHeight="43.0" prefWidth="234.0" promptText="Username" />
+                                    </children>
+                                </HBox>
+                                <HBox layoutX="10.0" layoutY="122.0" prefHeight="71.0" prefWidth="300.0">
+                                    <children>
+                                        <Label prefHeight="18.0" prefWidth="36.0" />
+                                        <PasswordField fx:id="passwordField" prefHeight="36.0" prefWidth="234.0" promptText="Password" />
+                                    </children>
+                                </HBox>
+                                <HBox prefHeight="68.0" prefWidth="300.0">
+                                    <children>
+                                        <Label prefHeight="18.0" prefWidth="49.0" />
+                                        <Button mnemonicParsing="false" onAction="#login" prefHeight="45.0" prefWidth="207.0" styleClass="login-bu" stylesheets="@design.css" text="Login" />
+                                    </children>
+                                </HBox>
+                            </children></VBox>
+                    </right>
+                </BorderPane>
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

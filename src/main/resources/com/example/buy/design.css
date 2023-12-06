@@ -1,0 +1,22 @@
+.gradient{
+    -fx-background-color: linear-gradient(to bottom right, #BA97A6, #BA97A6);
+}
+
+.white-form{
+    -fx-background-color: #ffff;
+}
+
+.login-bu{
+    -fx-background-color: linear-gradient(to bottom right, #f9f2fc, #f9f2fc);
+    -fx-background-radius: 5px;
+    -fx-border-color: #662222;
+    -fx-cursor: hand;
+    -fx-text-fill: #662222;
+    -fx-font-size: 14px;
+}
+
+.login-bu:hover{
+    -fx-background-color: linear-gradient(to bottom right, #BA97A6, #BA97A6);
+}
+
+
