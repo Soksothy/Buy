@@ -1,5 +1,5 @@
 .gradient{
-    -fx-background-color: linear-gradient(to bottom right, #BA97A6, #BA97A6);
+    -fx-background-color: linear-gradient(to bottom right, #b43100, #c800ff);
 }
 
 .white-form{
@@ -16,7 +16,13 @@
 }
 
 .login-bu:hover{
-    -fx-background-color: linear-gradient(to bottom right, #BA97A6, #BA97A6);
+    -fx-background-color: linear-gradient(to bottom right, #c800ff, #fb037c);
+}
+.font{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
 }
 
 
