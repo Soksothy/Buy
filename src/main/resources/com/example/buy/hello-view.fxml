@@ -314,7 +314,7 @@
                            </image>
                         </ImageView>
                         <Rectangle fx:id="re32" arcHeight="5.0" arcWidth="5.0" fill="#edb21c" height="232.0" layoutX="345.0" layoutY="63.0" stroke="#edb21c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
-                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="366.0" layoutY="56.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="366.0" layoutY="56.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Matcha">
                            <font>
                               <Font size="46.0" />
                            </font>
@@ -350,7 +350,7 @@
                         <Rectangle fx:id="re23211" arcHeight="5.0" arcWidth="5.0" fill="#1ceb5b" height="232.0" layoutX="881.0" layoutY="695.0" stroke="#1ceb5b" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
                         <Rectangle fx:id="re22121" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1433.0" layoutY="383.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
                         <Rectangle fx:id="re221211" arcHeight="5.0" arcWidth="5.0" fill="#eb1c1c" height="232.0" layoutX="1437.0" layoutY="700.0" stroke="#eb1c1c" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeWidth="30.0" styleClass="retengle" width="418.0" />
-                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="361.0" layoutY="367.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="361.0" layoutY="367.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Fresh Tea ">
                            <font>
                               <Font size="46.0" />
                            </font>
@@ -378,7 +378,7 @@
                         </Label>
                         <ChoiceBox fx:id="sugart11" layoutX="1112.0" layoutY="386.0" prefHeight="65.0" prefWidth="187.0" />
                         <ChoiceBox fx:id="sizet11" layoutX="1112.0" layoutY="517.0" prefHeight="65.0" prefWidth="187.0" />
-                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="358.0" layoutY="701.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Eggnog">
+                        <Label alignment="TOP_LEFT" contentDisplay="RIGHT" layoutX="358.0" layoutY="701.0" prefHeight="69.0" prefWidth="412.0" styleClass="font" text="Mate Assam">
                            <font>
                               <Font size="46.0" />
                            </font>
