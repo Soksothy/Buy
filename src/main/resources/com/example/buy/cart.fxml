@@ -27,13 +27,14 @@
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <TableView layoutX="40.0" layoutY="166.0" prefHeight="636.0" prefWidth="1858.0" styleClass="fontta" stylesheets="@cafe.css">
+            <TableView fx:id="table" layoutX="40.0" layoutY="166.0" prefHeight="636.0" prefWidth="1858.0" styleClass="fontta" stylesheets="@cafe.css">
               <columns>
-                <TableColumn prefWidth="215.0" text="No" />
-                <TableColumn prefWidth="352.0" text="Name" />
-                  <TableColumn prefWidth="337.0" text="Price" />
-                  <TableColumn minWidth="0.0" prefWidth="539.0" text="Cost" />
-                  <TableColumn prefWidth="412.0" text="Quantity " />
+                <TableColumn fx:id="no" prefWidth="137.66665649414062" text="No" />
+                <TableColumn fx:id="name" prefWidth="448.66668701171875" text="Name" />
+                  <TableColumn fx:id="qty" prefWidth="191.33331298828125" text="Quantity " />
+                  <TableColumn fx:id="size" prefWidth="192.6666259765625" text="Size" />
+                  <TableColumn fx:id="price" minWidth="6.99993896484375" prefWidth="228.333251953125" text="Price" />
+                  <TableColumn fx:id="cost" maxWidth="656.0" minWidth="-1.0" prefWidth="656.0" text="Cost" />
               </columns>
             </TableView>
             <Label layoutX="326.0" layoutY="857.0" prefHeight="87.0" prefWidth="153.0" styleClass="fontbtn" stylesheets="@cafe.css" text="Total :" />
