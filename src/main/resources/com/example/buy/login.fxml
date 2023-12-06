@@ -41,7 +41,7 @@
                             <children>
                                 <HBox prefHeight="112.0" prefWidth="300.0">
                                     <children>
-                                        <Label alignment="CENTER" prefHeight="116.0" prefWidth="153.0" text="Admin" textFill="#663c22">
+                                        <Label alignment="CENTER" prefHeight="112.0" prefWidth="301.0" text="ADMIN" textFill="#663c22">
                                             <font>
                                                 <Font size="30.0" />
                                             </font>

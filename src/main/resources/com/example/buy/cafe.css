@@ -14,6 +14,24 @@
     -fx-font-weight: bold;
     -fx-text-fill: black;
 }
+.fontt{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 90px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.fontct{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+.fontta{
+    -fx-font-family: "TeXGyreAdventor";
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
 .fontbtn{
     -fx-font-family: "TeXGyreAdventor";
     -fx-font-size: 50px;
