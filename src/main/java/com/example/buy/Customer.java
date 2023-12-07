@@ -1,6 +1,8 @@
 package com.example.buy;
 
-public class Customer {
+import java.io.Serializable;
+
+public class Customer implements Serializable {
 
     private String id;
     private String name;
@@ -8,7 +10,7 @@ public class Customer {
     private String price;
     private String status;
 
-    public Customer(String id,String name, String type,String price, String status) {
+    public Customer(String id, String name, String type, String price, String status) {
         this.id = id;
         this.name = name;
         this.type = type;
@@ -50,7 +52,8 @@ public class Customer {
         return status;
     }
 
-    public void setStatus(String Status) {
+    public void setStatus(String status) {
         this.status = status;
     }
+    private static final long serialVersionUID = 1L;
 }
