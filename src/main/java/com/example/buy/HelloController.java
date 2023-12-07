@@ -2,17 +2,18 @@ package com.example.buy;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.ChoiceBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.Spinner;
-import javafx.scene.control.SpinnerValueFactory;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.Scanner;
 
-public class HelloController implements Initializable{
+public class HelloController extends SecondController implements Initializable{
     @FXML
     ImageView caffe;
     Image cc = new Image(getClass().getResourceAsStream("gh.jpg"));
@@ -112,6 +113,9 @@ public class HelloController implements Initializable{
     @FXML
     private Spinner<Integer> spint111;
     int cv;
+    @FXML
+    TextArea c1;
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -160,7 +164,47 @@ public class HelloController implements Initializable{
         SpinnerValueFactory<Integer> st3 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
         st1.setValue(1);
         spint111.setValueFactory(st3);
+        /*try
+        {
+
+                Scanner s = new Scanner(new File("Stock.txt")).useDelimiter("\\s+");
+                while (s.hasNext())
+                {
+                    if(s.hasNextInt()){
+                        c1.appendText(s.nextInt()+"");
+                    }else {
+                        c1.appendText(s.next()+"");
+                    }
+                }
+
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }*/
+
+
+        //2
+        try
+        {
+
+            Scanner s = new Scanner(new File("Stock.txt")).useDelimiter("\\s+");
+            while (s.hasNext())
+            {
+                if(s.hasNextInt()){
+                    c1.appendText(s.nextInt()+"");
+                }else {
+                    c1.appendText(s.next()+"");
+                }
+            }
+
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
 
     }
+
+
 
 }

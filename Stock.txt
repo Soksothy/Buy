@@ -1,1 +1,3 @@
-12,weg,4.0,tea,have
+1,Cappuccino,3,Coffe,Instock
+2,Americano,3,Coffe,Instock
+3,Black Coffee,3,Coffe,Instock
