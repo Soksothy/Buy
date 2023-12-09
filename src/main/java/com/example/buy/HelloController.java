@@ -10,12 +10,15 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
-public class HelloController extends SecondController implements Initializable{
+public class HelloController   implements Initializable{
     @FXML
     ImageView caffe;
+    @FXML
     Image cc = new Image(getClass().getResourceAsStream("gh.jpg"));
 
 
@@ -115,6 +118,12 @@ public class HelloController extends SecondController implements Initializable{
     int cv;
     @FXML
     TextArea c1;
+    @FXML
+    ComboBox <String> cc1;
+
+ public String [] six ={"S","M","L"};
+
+
 
 
     @Override
@@ -137,33 +146,34 @@ public class HelloController extends SecondController implements Initializable{
         sizet11.getItems().addAll(sit11);
         sugart111.getItems().addAll(sut111);
         sizet111.getItems().addAll(sit111);
-        SpinnerValueFactory<Integer> valueFactory = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        valueFactory.setValue(1);
+        SpinnerValueFactory<Integer> valueFactory = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        valueFactory.setValue(0);
         spin.setValueFactory(valueFactory);
-        SpinnerValueFactory<Integer> s1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        s1.setValue(1);
+        SpinnerValueFactory<Integer> s1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        s1.setValue(0);
         spin1.setValueFactory(s1);
-        SpinnerValueFactory<Integer> s11 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        s11.setValue(1);
+        SpinnerValueFactory<Integer> s11 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        s11.setValue(0);
         spin11.setValueFactory(s11);
-        SpinnerValueFactory<Integer> sf1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        s11.setValue(1);
+        SpinnerValueFactory<Integer> sf1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        s11.setValue(0);
         spinf1.setValueFactory(sf1);
-        SpinnerValueFactory<Integer> sf2 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        s11.setValue(1);
+        SpinnerValueFactory<Integer> sf2 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        s11.setValue(0);
         spinf2.setValueFactory(sf2);
-        SpinnerValueFactory<Integer> sf3 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        s11.setValue(1);
+        SpinnerValueFactory<Integer> sf3 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        s11.setValue(0);
         spinf3.setValueFactory(sf3);
-        SpinnerValueFactory<Integer> st1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        st1.setValue(1);
+        SpinnerValueFactory<Integer> st1 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        st1.setValue(0);
         spint1.setValueFactory(st1);
-        SpinnerValueFactory<Integer> st2 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        st1.setValue(1);
+        SpinnerValueFactory<Integer> st2 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        st1.setValue(0);
         spint11.setValueFactory(st2);
-        SpinnerValueFactory<Integer> st3 = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100);
-        st1.setValue(1);
+        SpinnerValueFactory<Integer> st3 = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 100);
+        st1.setValue(0);
         spint111.setValueFactory(st3);
+
         /*try
         {
 

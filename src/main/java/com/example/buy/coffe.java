@@ -40,4 +40,28 @@ public class coffe {
     public String getSize() {
         return size;
     }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setQty(int qty) {
+        this.qty = qty;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
 }

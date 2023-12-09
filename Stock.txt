@@ -1,3 +1,2 @@
 1,Cappuccino,3,Coffe,Instock
-2,Americano,3,Coffe,Instock
-3,Black Coffee,3,Coffe,Instock
+4,AmericanoTea,8,Coffee,Instock

@@ -12,7 +12,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.buy.Cart">
    <children>
       <Pane layoutX="-4.0" prefHeight="1076.0" prefWidth="1924.0">
@@ -27,7 +26,7 @@
                   <Font name="System Bold Italic" size="18.0" />
                </font>
             </Label>
-            <TableView fx:id="table" layoutX="40.0" layoutY="166.0" prefHeight="636.0" prefWidth="1858.0" styleClass="fontta" stylesheets="@cafe.css">
+            <TableView fx:id="table" layoutX="40.0" layoutY="166.0" prefHeight="516.0" prefWidth="1858.0" styleClass="fontta" stylesheets="@cafe.css">
               <columns>
                 <TableColumn fx:id="no" prefWidth="137.66665649414062" text="No" />
                 <TableColumn fx:id="name" prefWidth="448.66668701171875" text="Name" />
@@ -37,14 +36,14 @@
                   <TableColumn fx:id="cost" maxWidth="656.0" minWidth="-1.0" prefWidth="656.0" text="Cost" />
               </columns>
             </TableView>
-            <Label layoutX="326.0" layoutY="857.0" prefHeight="87.0" prefWidth="153.0" styleClass="fontbtn" stylesheets="@cafe.css" text="Total :" />
-            <TextField layoutX="507.0" layoutY="855.0" prefHeight="89.0" prefWidth="848.0" stylesheets="@cafe.css">
+            <Label layoutX="352.0" layoutY="714.0" prefHeight="87.0" prefWidth="153.0" styleClass="fontbtn" stylesheets="@cafe.css" text="Total :" />
+            <TextField layoutX="527.0" layoutY="702.0" prefHeight="89.0" prefWidth="848.0" stylesheets="@cafe.css">
                <styleClass>
                   <String fx:value="font" />
                   <String fx:value="fontct" />
                </styleClass>
             </TextField>
-            <Button layoutX="703.0" layoutY="965.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="505.0" stylesheets="@cafe.css" text="Check out ">
+            <Button layoutX="703.0" layoutY="814.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="505.0" stylesheets="@cafe.css" text="Check out ">
                <styleClass>
                   <String fx:value="fontct" />
                   <String fx:value="btn" />
